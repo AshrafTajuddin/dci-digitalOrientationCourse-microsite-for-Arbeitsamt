@@ -1,0 +1,94 @@
+
+
+#myBtn {
+        position: fixed;
+        bottom: 10px;
+        float: center;
+        right: 18.5%;
+        left: 77.25%;
+        max-width: 50px;
+        width: 100%;
+        font-size: 12px;
+        border-color: rgba(85, 85, 85, 0.2);
+        background-color: rgb(100,100,100);
+        padding: .10px;
+        border-radius: 10px;
+        
+    }
+/*On Hover Color Change*/
+    #myBtn:hover {
+        background-color: orangered;
+    }
+#myBtn:hover {
+  background-color: darkgoldenrod; /* Add a dark-grey background on hover */
+}
+
+
+
+.box{
+    width: 70px;
+    height: 70px;
+    background-color: blue; 
+    transition-property: width, background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    
+    }
+    
+.box:hover{
+    width: 150px;
+    background-color:greenyellow;
+    
+}     
+
+
+
+
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+        
+     main {   background-color:brown;}
+        
+        h1 {color:green;
+            text-align: center;
+            font-size: 50px;
+            border:10px solid black;
+            border-bottom-color:aquamarine;
+           margin-right: 5px; 
+           padding-top: 10px;
+           padding-bottom: 10px;
+       background-color:cornflowerblue
+        }
+        
+        
+        
+        p {
+  font-family:monospace;
+  font-size: 30px;
+  text-align: center; 
+  color:black;
+}
+        
+        
+        
+        
+        footer{ margin-top: 15px;
+                background-color: Green;
+                color: white;
+        }
+        
+        
+        
+        
+        footer p {
+    color:antiquewhite;
+    text-align: center;
+    margin-right: 10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
